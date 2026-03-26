@@ -1,0 +1,78 @@
+</> CSS 
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #f4f4f4;
+}
+header{
+	background: #000;
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+nav ul il {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+}
+nav ul li a{
+	margin: 0 15px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+.hero{
+	padding:40px;
+	text-align: center;
+	background: #ddd;
+}
+.feature{
+	font-display: flex;
+	gap: 20px;
+	padding: 15px;
+}
+.feature article{
+	background: white;
+	padding: 15px;
+	flex: 1;
+}
+.feature img {
+	width: 100%;
+}
+.article {
+	padding: 20px;
+	background: white;
+	margin: 20px;  
+}
+.trending {
+	padding: 20px;
+	background: white;
+	margin: 20px;
+}
+.contact {
+	padding: 20px;
+	background: white;
+	margin: 20px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+input, textaras {
+	margin: 10px 0;
+	padding: 10px;
+}
+button{
+	background: black;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+}
+media (max-width:768px){
+	.feature{
+		flex-direction: column;
+	}
+} 
